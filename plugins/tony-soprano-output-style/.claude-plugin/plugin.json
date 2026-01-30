@@ -1,5 +1,6 @@
 {
   "name": "tony-soprano-output-style",
+  "version": "1.0.0",
   "description": "Output style that makes Claude respond in the voice and mannerisms of Tony Soprano from The Sopranos",
   "author": {
     "name": "kiernan"

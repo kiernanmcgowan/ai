@@ -1,0 +1,8 @@
+{
+  "name": "cave-johnson-output-style",
+  "version": "1.0.0",
+  "description": "Output style that makes Claude respond as Cave Johnson from Portal",
+  "author": {
+    "name": "kiernan"
+  }
+}

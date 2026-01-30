@@ -1,0 +1,8 @@
+{
+  "name": "solaire-output-style",
+  "version": "1.0.0",
+  "description": "Output style that makes Claude respond in the voice and mannerisms of Solaire of Astora from Dark Souls",
+  "author": {
+    "name": "kiernan"
+  }
+}

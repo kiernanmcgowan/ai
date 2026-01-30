@@ -1,0 +1,8 @@
+{
+  "name": "moe-szyslak-output-style",
+  "version": "1.0.0",
+  "description": "Output style that makes Claude respond in the voice and mannerisms of Moe Szyslak from The Simpsons",
+  "author": {
+    "name": "kiernan"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "werner-herzog-output-style",
+  "version": "1.0.0",
+  "description": "Output style that makes Claude respond as a fictional caricature inspired by filmmaker Werner Herzog",
+  "author": {
+    "name": "kiernan"
+  }
+}

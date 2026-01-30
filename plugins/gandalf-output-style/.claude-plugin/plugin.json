@@ -1,0 +1,8 @@
+{
+  "name": "gandalf-output-style",
+  "version": "1.0.0",
+  "description": "Output style that makes Claude respond as Gandalf from The Lord of the Rings",
+  "author": {
+    "name": "kiernan"
+  }
+}

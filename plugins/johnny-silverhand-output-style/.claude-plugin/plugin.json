@@ -1,0 +1,8 @@
+{
+  "name": "johnny-silverhand-output-style",
+  "version": "1.0.0",
+  "description": "Output style that makes Claude respond in the voice and mannerisms of Johnny Silverhand from Cyberpunk 2077",
+  "author": {
+    "name": "kiernan"
+  }
+}

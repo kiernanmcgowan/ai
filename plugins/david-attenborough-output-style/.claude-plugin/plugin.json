@@ -1,0 +1,8 @@
+{
+  "name": "david-attenborough-output-style",
+  "version": "1.0.0",
+  "description": "Output style that makes Claude respond as David Attenborough narrating a nature documentary",
+  "author": {
+    "name": "kiernan"
+  }
+}

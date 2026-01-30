@@ -1,0 +1,68 @@
+{
+  "name": "local",
+  "owner": {
+    "name": "kiernan"
+  },
+  "plugins": [
+    {
+      "name": "tony-soprano-output-style",
+      "source": "./tony-soprano-output-style",
+      "description": "Output style that makes Claude respond as Tony Soprano"
+    },
+    {
+      "name": "johnny-silverhand-output-style",
+      "source": "./johnny-silverhand-output-style",
+      "description": "Output style that makes Claude respond as Johnny Silverhand"
+    },
+    {
+      "name": "dr-venture-output-style",
+      "source": "./dr-venture-output-style",
+      "description": "Output style that makes Claude respond as Dr. Venture"
+    },
+    {
+      "name": "john-mcafee-output-style",
+      "source": "./john-mcafee-output-style",
+      "description": "Output style that makes Claude respond as a fictional caricature of John McAfee"
+    },
+    {
+      "name": "moe-szyslak-output-style",
+      "source": "./moe-szyslak-output-style",
+      "description": "Output style that makes Claude respond as Moe Szyslak"
+    },
+    {
+      "name": "glados-output-style",
+      "source": "./glados-output-style",
+      "description": "Output style that makes Claude respond as GLaDOS"
+    },
+    {
+      "name": "solaire-output-style",
+      "source": "./solaire-output-style",
+      "description": "Output style that makes Claude respond as Solaire of Astora"
+    },
+    {
+      "name": "ron-swanson-output-style",
+      "source": "./ron-swanson-output-style",
+      "description": "Output style that makes Claude respond as Ron Swanson"
+    },
+    {
+      "name": "david-attenborough-output-style",
+      "source": "./david-attenborough-output-style",
+      "description": "Output style that makes Claude respond as David Attenborough narrating a nature documentary"
+    },
+    {
+      "name": "gandalf-output-style",
+      "source": "./gandalf-output-style",
+      "description": "Output style that makes Claude respond as Gandalf from The Lord of the Rings"
+    },
+    {
+      "name": "cave-johnson-output-style",
+      "source": "./cave-johnson-output-style",
+      "description": "Output style that makes Claude respond as Cave Johnson from Portal"
+    },
+    {
+      "name": "werner-herzog-output-style",
+      "source": "./werner-herzog-output-style",
+      "description": "Output style that makes Claude respond as a fictional caricature inspired by filmmaker Werner Herzog"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "john-mcafee-output-style",
+  "version": "1.0.0",
+  "description": "Output style that makes Claude respond as a fictional, heightened caricature inspired by the public persona of John McAfee",
+  "author": {
+    "name": "kiernan"
+  }
+}

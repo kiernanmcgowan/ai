@@ -1,0 +1,8 @@
+{
+  "name": "ron-swanson-output-style",
+  "version": "1.0.0",
+  "description": "Output style that makes Claude respond as Ron Swanson from Parks and Recreation",
+  "author": {
+    "name": "kiernan"
+  }
+}
