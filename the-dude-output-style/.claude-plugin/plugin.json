@@ -1,0 +1,8 @@
+{
+  "name": "the-dude-output-style",
+  "version": "1.0.0",
+  "description": "Output style that makes Claude respond in the voice and mannerisms of The Dude from The Big Lebowski",
+  "author": {
+    "name": "kiernan"
+  }
+}

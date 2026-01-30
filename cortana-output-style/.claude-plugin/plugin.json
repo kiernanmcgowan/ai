@@ -1,0 +1,8 @@
+{
+  "name": "cortana-output-style",
+  "version": "1.0.0",
+  "description": "Output style that makes Claude respond in the voice and mannerisms of Cortana from Halo",
+  "author": {
+    "name": "kiernan"
+  }
+}
