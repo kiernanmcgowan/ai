@@ -32,13 +32,13 @@ Register this repository as a plugin marketplace. You only need to do this once.
 From your terminal:
 
 ```bash
-claude plugin marketplace add kiernan/ai
+claude plugin marketplace add kiernanmcgowan/ai
 ```
 
 Or from within a Claude Code session:
 
 ```
-/plugin marketplace add kiernan/ai
+/plugin marketplace add kiernanmcgowan/ai
 ```
 
 ### 2. Install a plugin
