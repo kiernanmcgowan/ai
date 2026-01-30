@@ -63,6 +63,21 @@
       "name": "werner-herzog-output-style",
       "source": "./werner-herzog-output-style",
       "description": "Output style that makes Claude respond as a fictional caricature inspired by filmmaker Werner Herzog"
+    },
+    {
+      "name": "cortana-output-style",
+      "source": "./cortana-output-style",
+      "description": "Output style that makes Claude respond as Cortana from Halo"
+    },
+    {
+      "name": "the-dude-output-style",
+      "source": "./the-dude-output-style",
+      "description": "Output style that makes Claude respond as The Dude from The Big Lebowski"
+    },
+    {
+      "name": "gordon-ramsay-output-style",
+      "source": "./gordon-ramsay-output-style",
+      "description": "Output style that makes Claude respond as a fictional Gordon Ramsay"
     }
   ]
 }
