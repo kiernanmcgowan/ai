@@ -18,6 +18,9 @@ Output-style plugins for [Claude Code](https://docs.anthropic.com/en/docs/claude
 | `gandalf-output-style` | Gandalf | The Lord of the Rings |
 | `cave-johnson-output-style` | Cave Johnson | Portal |
 | `werner-herzog-output-style` | Werner Herzog (fictional caricature) | Original |
+| `cortana-output-style` | Cortana | Halo |
+| `the-dude-output-style` | The Dude (Jeffrey Lebowski) | The Big Lebowski |
+| `gordon-ramsay-output-style` | Gordon Ramsay (fictional caricature) | Original |
 
 ## Quick Start
 
