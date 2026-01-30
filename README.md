@@ -25,40 +25,49 @@ A marketplace of output-style plugins for [Claude Code](https://docs.anthropic.c
 
 ## Installation
 
-### Option 1: Install from this marketplace (recommended)
+### 1. Add this marketplace
 
-First, register this repository as a plugin marketplace. You only need to do this once.
+Register this repository as a plugin marketplace. You only need to do this once.
 
-**If this repo is on GitHub:**
-
-```bash
-claude plugin marketplace add owner/repo-name
-```
-
-**If you have it cloned locally:**
+From your terminal:
 
 ```bash
-claude plugin marketplace add /absolute/path/to/this/repo/plugins
+claude plugin marketplace add kiernan/ai
 ```
 
-Then install any plugin by name:
+Or from within a Claude Code session:
+
+```
+/plugin marketplace add kiernan/ai
+```
+
+### 2. Install a plugin
 
 ```bash
 claude plugin install tony-soprano-output-style@local
 ```
 
-The `@local` suffix refers to the marketplace name defined in `plugins/.claude-plugin/marketplace.json`. Replace it with whatever name your marketplace uses.
-
-You can also install from within a Claude Code session using slash commands:
+Or from within a Claude Code session:
 
 ```
-/plugin marketplace add /absolute/path/to/this/repo/plugins
 /plugin install tony-soprano-output-style@local
 ```
 
-#### Installation scope
+The `@local` suffix is the marketplace name defined in this repo's `plugins/.claude-plugin/marketplace.json`.
 
-By default, plugins install to your user scope (`~/.claude/settings.json`), making them available across all projects. You can also choose a different scope:
+> **Note:** Only one persona plugin should be active at a time. Installing multiple persona plugins will result in conflicting style directives.
+
+### 3. Start a session
+
+```bash
+claude
+```
+
+The persona activates automatically at session start. No additional configuration needed.
+
+### Installation scope
+
+By default, plugins install to your user scope (`~/.claude/settings.json`), making them available across all projects. You can choose a different scope:
 
 ```bash
 # Available in all your projects (default)
@@ -71,29 +80,13 @@ claude plugin install tony-soprano-output-style@local --scope project
 claude plugin install tony-soprano-output-style@local --scope local
 ```
 
-#### Managing installed plugins
+### Managing plugins
 
 ```bash
 claude plugin disable tony-soprano-output-style@local
 claude plugin enable tony-soprano-output-style@local
 claude plugin uninstall tony-soprano-output-style@local
 ```
-
-### Option 2: Load directly for testing
-
-If you just want to try a plugin without installing it, pass the plugin directory at launch:
-
-```bash
-claude --plugin-dir ./plugins/tony-soprano-output-style
-```
-
-You can load multiple plugins at once:
-
-```bash
-claude --plugin-dir ./plugins/glados-output-style --plugin-dir ./plugins/solaire-output-style
-```
-
-> **Note:** Only one persona plugin should be active at a time. Loading multiple persona plugins will result in conflicting style directives.
 
 ## How It Works
 
@@ -176,6 +169,14 @@ exit 0
 The `additionalContext` string is where the entire persona definition lives — voice rules, signature phrases, metaphors, philosophical style, and the mandate to keep technical accuracy intact.
 
 ## Creating Your Own Persona Plugin
+
+To develop and test plugins locally, clone this repo and use `--plugin-dir` to load a plugin directly without installing:
+
+```bash
+claude --plugin-dir ./plugins/tony-soprano-output-style
+```
+
+### Steps
 
 1. **Copy an existing plugin** as a starting point:
 
